@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="additional.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="new.css">
+
+    <title>ECO-LOCATOR Login & Registration</title>
+    
+</head>
+<body>
+<div class="wrapper">
+    <nav class="nav">
+        <div class="nav-logo">
+            <p>ECO-LOCATOR. </p>
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="new login.html" class="link active">Home</a></li>
+                <li><a href="locator.html" class="link">Location</a></li>
+                <li><a href="services.html" class="link">Services</a></li>
+                <li><a href="about.html" class="link">About</a></li>
+                <li><a href="contact.html" class="link">Contact</a></li>
+                ``?<li><a href="information.html" class="link">Information</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="home">
+        <div class="main-text">
+            <h1>WELCOME TO E-WASTE FACILITY LOCATOR</h1>
+            <p>Find the nearest e-waste recycling facilities and disposal centers near you.</p>
+            <button id="btn">Locate Now</button>
+        </div>
+    </div>
+
+    
+</div>
+<script>
+    // Add event listener to the button
+    document.getElementById('btn').addEventListener('click', function() {
+        // Redirect to locator.html when button is clicked
+        window.location.href = 'locator.html';
+    });
+</script>
+</body>
+</html>
